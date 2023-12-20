@@ -4,7 +4,7 @@ from gtts import gTTS # google text to speech
 import random
 from time import ctime # get time details
 import webbrowser # open browser
-import ssl
+import ssl   
 import certifi
 import time
 import os # to remove created audio files
@@ -14,6 +14,10 @@ import pyautogui #screenshot
 import pyttsx3
 import bs4 as bs
 import urllib.request
+import smtplib    #send mail
+import pywhatkit   #send whatsapp
+import googletrans   #google translation
+import pyjokes   #one line joke forprogrammer
 
 class person:
     name = ''
